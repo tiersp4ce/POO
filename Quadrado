@@ -24,7 +24,7 @@ public class Quadrado extends Figura {
     public String toString(){
         String dados = "A Base do quadrado é: " + this.lado1;
         dados += "\nA altura do quadrado é: " + this.lado2;
-        dados += "\nA area do quadrado é: " + areaR() ;
+        dados += "\nA area do quadrado é: " + areaQ() ;
         return dados;
     }
 }
